@@ -6,9 +6,10 @@ using System.IO;
 using System.Linq;
 using System.Net;
 using System.Net.NetworkInformation;
+using HikVisionNetSDK.Models;
 using Office365Fx.Core;
 
-namespace HikVisionNetSDK
+namespace HikVisionNetSDK.Codec
 {
     /// <summary>
     /// WebSocket转码器，提供将RSTP流转换成WebSocket流的方法。
