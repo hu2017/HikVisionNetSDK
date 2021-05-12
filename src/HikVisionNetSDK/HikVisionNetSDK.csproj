@@ -1,0 +1,95 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="lib\websockets\**" />
+    <EmbeddedResource Remove="lib\websockets\**" />
+    <None Remove="lib\websockets\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="lib\wsLiveVideo\node_modules\ws\browser.js" />
+    <None Remove="lib\wsLiveVideo\node_modules\ws\index.js" />
+    <None Remove="lib\wsLiveVideo\node_modules\ws\lib\buffer-util.js" />
+    <None Remove="lib\wsLiveVideo\node_modules\ws\lib\constants.js" />
+    <None Remove="lib\wsLiveVideo\node_modules\ws\lib\event-target.js" />
+    <None Remove="lib\wsLiveVideo\node_modules\ws\lib\extension.js" />
+    <None Remove="lib\wsLiveVideo\node_modules\ws\lib\limiter.js" />
+    <None Remove="lib\wsLiveVideo\node_modules\ws\lib\permessage-deflate.js" />
+    <None Remove="lib\wsLiveVideo\node_modules\ws\lib\receiver.js" />
+    <None Remove="lib\wsLiveVideo\node_modules\ws\lib\sender.js" />
+    <None Remove="lib\wsLiveVideo\node_modules\ws\lib\stream.js" />
+    <None Remove="lib\wsLiveVideo\node_modules\ws\lib\validation.js" />
+    <None Remove="lib\wsLiveVideo\node_modules\ws\lib\websocket-server.js" />
+    <None Remove="lib\wsLiveVideo\node_modules\ws\lib\websocket.js" />
+    <None Remove="lib\wsLiveVideo\node_modules\ws\LICENSE" />
+    <None Remove="lib\wsLiveVideo\node_modules\ws\package.json" />
+    <None Remove="lib\wsLiveVideo\node_modules\ws\README.md" />
+    <None Remove="lib\wsLiveVideo\wsLiveVideo.js" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="lib\wsLiveVideo\node_modules\ws\browser.js">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="lib\wsLiveVideo\node_modules\ws\index.js">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="lib\wsLiveVideo\node_modules\ws\lib\buffer-util.js">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="lib\wsLiveVideo\node_modules\ws\lib\constants.js">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="lib\wsLiveVideo\node_modules\ws\lib\event-target.js">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="lib\wsLiveVideo\node_modules\ws\lib\extension.js">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="lib\wsLiveVideo\node_modules\ws\lib\limiter.js">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="lib\wsLiveVideo\node_modules\ws\lib\permessage-deflate.js">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="lib\wsLiveVideo\node_modules\ws\lib\receiver.js">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="lib\wsLiveVideo\node_modules\ws\lib\sender.js">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="lib\wsLiveVideo\node_modules\ws\lib\stream.js">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="lib\wsLiveVideo\node_modules\ws\lib\validation.js">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="lib\wsLiveVideo\node_modules\ws\lib\websocket-server.js">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="lib\wsLiveVideo\node_modules\ws\lib\websocket.js">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="lib\wsLiveVideo\node_modules\ws\LICENSE">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="lib\wsLiveVideo\node_modules\ws\package.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="lib\wsLiveVideo\node_modules\ws\README.md">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="lib\wsLiveVideo\wsLiveVideo.js">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Office365Fx.Core" Version="1.0.5" />
+  </ItemGroup>
+
+</Project>
