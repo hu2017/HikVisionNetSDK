@@ -1,16 +1,20 @@
 using System;
 using HikVisionNetSDK;
+using HikVisionNetSDK.Codec;
+using HikVisionNetSDK.Models;
 using Xunit;
 
 namespace HkvsNetDrvierTests
 {
     public class WebSocketTranscoderTest
     {
+        /// <summary>
+        /// 直连摄像头取流
+        /// </summary>
         [Fact]
         public void TestStartCVR()
         {
             var transcoder = new WebSocketTranscoder(@"C:\ffmpeg\bin\ffmpeg.exe", @"C:\nodejs\node.exe", "192.168.8.89");
-            //直连设备
             var device1 = new CameraDevice()
             {
                 Id = "001",
@@ -28,11 +32,13 @@ namespace HkvsNetDrvierTests
             Assert.NotNull(startResult.Value);
         }
 
+        /// <summary>
+        /// 通过NVR连接摄像头取流
+        /// </summary>
         [Fact]
         public void TestStartNVR()
         {
             var transcoder = new WebSocketTranscoder(@"C:\ffmpeg\bin\ffmpeg.exe", @"C:\nodejs\node.exe", "192.168.8.89");
-
             var device2 = new CameraDevice()
             {
                 Id = "002",

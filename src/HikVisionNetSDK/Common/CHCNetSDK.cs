@@ -1,6 +1,6 @@
 ﻿using System;
 using System.Runtime.InteropServices;
-namespace HikVisionNetSDK
+namespace HikVisionNetSDK.Common
 {
     /// <summary>
     /// 海康提供的SDK原型
