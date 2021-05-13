@@ -11,6 +11,50 @@
   </ItemGroup>
 
   <ItemGroup>
+    <None Remove="lib\Hkvs\AudioRender.dll" />
+    <None Remove="lib\Hkvs\DeviceCfg.json" />
+    <None Remove="lib\Hkvs\EagleEyeRender.dll" />
+    <None Remove="lib\Hkvs\GdiPlus.dll" />
+    <None Remove="lib\Hkvs\GdiPlus.lib" />
+    <None Remove="lib\Hkvs\HCCore.dll" />
+    <None Remove="lib\Hkvs\HCCore.lib" />
+    <None Remove="lib\Hkvs\HCNetSDK.dll" />
+    <None Remove="lib\Hkvs\HCNetSDK.lib" />
+    <None Remove="lib\Hkvs\HCNetSDKCom\AnalyzeData.dll" />
+    <None Remove="lib\Hkvs\HCNetSDKCom\AudioIntercom.dll" />
+    <None Remove="lib\Hkvs\HCNetSDKCom\HCAlarm.dll" />
+    <None Remove="lib\Hkvs\HCNetSDKCom\HCAlarm.lib" />
+    <None Remove="lib\Hkvs\HCNetSDKCom\HCCoreDevCfg.dll" />
+    <None Remove="lib\Hkvs\HCNetSDKCom\HCDisplay.dll" />
+    <None Remove="lib\Hkvs\HCNetSDKCom\HCGeneralCfgMgr.dll" />
+    <None Remove="lib\Hkvs\HCNetSDKCom\HCGeneralCfgMgr.lib" />
+    <None Remove="lib\Hkvs\HCNetSDKCom\HCIndustry.dll" />
+    <None Remove="lib\Hkvs\HCNetSDKCom\HCPlayBack.dll" />
+    <None Remove="lib\Hkvs\HCNetSDKCom\HCPreview.dll" />
+    <None Remove="lib\Hkvs\HCNetSDKCom\HCPreview.lib" />
+    <None Remove="lib\Hkvs\HCNetSDKCom\HCVoiceTalk.dll" />
+    <None Remove="lib\Hkvs\HCNetSDKCom\libiconv2.dll" />
+    <None Remove="lib\Hkvs\HCNetSDKCom\OpenAL32.dll" />
+    <None Remove="lib\Hkvs\HCNetSDKCom\StreamTransClient.dll" />
+    <None Remove="lib\Hkvs\HCNetSDKCom\SystemTransform.dll" />
+    <None Remove="lib\Hkvs\HkvsNetDrvier.deps.json" />
+    <None Remove="lib\Hkvs\HkvsNetDrvier.dll" />
+    <None Remove="lib\Hkvs\hlog.dll" />
+    <None Remove="lib\Hkvs\hpr.dll" />
+    <None Remove="lib\Hkvs\HXVA.dll" />
+    <None Remove="lib\Hkvs\libeay32.dll" />
+    <None Remove="lib\Hkvs\libmmd.dll" />
+    <None Remove="lib\Hkvs\LocalSensorAdd.dat" />
+    <None Remove="lib\Hkvs\LocalXml.zip" />
+    <None Remove="lib\Hkvs\log4cxx.properties" />
+    <None Remove="lib\Hkvs\MP_Render.dll" />
+    <None Remove="lib\Hkvs\NPQos.dll" />
+    <None Remove="lib\Hkvs\PlayCtrl.dll" />
+    <None Remove="lib\Hkvs\PlayCtrl.lib" />
+    <None Remove="lib\Hkvs\ssleay32.dll" />
+    <None Remove="lib\Hkvs\SuperRender.dll" />
+    <None Remove="lib\Hkvs\YUVProcess.dll" />
+    <None Remove="lib\Hkvs\zlib1.dll" />
     <None Remove="lib\wsLiveVideo\node_modules\ws\browser.js" />
     <None Remove="lib\wsLiveVideo\node_modules\ws\index.js" />
     <None Remove="lib\wsLiveVideo\node_modules\ws\lib\buffer-util.js" />
@@ -32,6 +76,138 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Content Include="lib\Hkvs\AudioRender.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="lib\Hkvs\DeviceCfg.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="lib\Hkvs\EagleEyeRender.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="lib\Hkvs\GdiPlus.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="lib\Hkvs\GdiPlus.lib">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="lib\Hkvs\HCCore.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="lib\Hkvs\HCCore.lib">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="lib\Hkvs\HCNetSDK.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="lib\Hkvs\HCNetSDK.lib">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="lib\Hkvs\HCNetSDKCom\AnalyzeData.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="lib\Hkvs\HCNetSDKCom\AudioIntercom.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="lib\Hkvs\HCNetSDKCom\HCAlarm.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="lib\Hkvs\HCNetSDKCom\HCAlarm.lib">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="lib\Hkvs\HCNetSDKCom\HCCoreDevCfg.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="lib\Hkvs\HCNetSDKCom\HCDisplay.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="lib\Hkvs\HCNetSDKCom\HCGeneralCfgMgr.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="lib\Hkvs\HCNetSDKCom\HCGeneralCfgMgr.lib">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="lib\Hkvs\HCNetSDKCom\HCIndustry.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="lib\Hkvs\HCNetSDKCom\HCPlayBack.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="lib\Hkvs\HCNetSDKCom\HCPreview.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="lib\Hkvs\HCNetSDKCom\HCPreview.lib">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="lib\Hkvs\HCNetSDKCom\HCVoiceTalk.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="lib\Hkvs\HCNetSDKCom\libiconv2.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="lib\Hkvs\HCNetSDKCom\OpenAL32.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="lib\Hkvs\HCNetSDKCom\StreamTransClient.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="lib\Hkvs\HCNetSDKCom\SystemTransform.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="lib\Hkvs\HkvsNetDrvier.deps.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="lib\Hkvs\HkvsNetDrvier.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="lib\Hkvs\hlog.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="lib\Hkvs\hpr.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="lib\Hkvs\HXVA.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="lib\Hkvs\libeay32.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="lib\Hkvs\libmmd.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="lib\Hkvs\LocalSensorAdd.dat">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="lib\Hkvs\LocalXml.zip">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="lib\Hkvs\log4cxx.properties">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="lib\Hkvs\MP_Render.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="lib\Hkvs\NPQos.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="lib\Hkvs\PlayCtrl.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="lib\Hkvs\PlayCtrl.lib">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="lib\Hkvs\ssleay32.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="lib\Hkvs\SuperRender.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="lib\Hkvs\YUVProcess.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="lib\Hkvs\zlib1.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
     <Content Include="lib\wsLiveVideo\node_modules\ws\browser.js">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
